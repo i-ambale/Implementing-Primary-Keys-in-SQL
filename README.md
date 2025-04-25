@@ -48,8 +48,9 @@ CREATE TABLE Geographic_Location (
   Land_area NUMERIC(10,2)
 );
 ```
+
 2: **Insert Cleaned Data**:
-```
+```sql
 INSERT INTO united_nations.Geographic_Location (Country_name, Sub_region, Region, Land_area)
 SELECT 
     Country_name,
