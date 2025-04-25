@@ -66,6 +66,7 @@ Country_name is not unique in the original dataset, as countries have multiple e
 We use GROUP BY to aggregate and ensure one unique entry per country.
 
 AVG(Land_area) helps standardize values in case of slight inconsistencies.
+
 ---
 💻 Requirements
 MySQL installed locally
@@ -76,8 +77,10 @@ Jupyter Notebook
 ---
 📎 Disclaimer
 The notebook may not work on Google Colab because it requires a local MySQL server connection.
+
 ---
 📌 Credits
 Created as part of the ExploreAI Academy training on SQL and database normalization.
+
 ---
 Adopted by: Ibrahim Ambale
